@@ -4,7 +4,7 @@ public class isPermutation {
     String str1;
     String str2;
 
-    isPermutation(String str1, String str2){
+    isPermutation(String str1, String str2) {
         this.str1 = str1;
         this.str2 = str2;
     }
@@ -18,14 +18,11 @@ public class isPermutation {
         System.out.println(Arrays.equals(arr1, arr2));
     }
 
-
-
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         isPermutation permutate = new isPermutation(input.nextLine(), input.nextLine());
 
         permutate.printValue();
     }
-
 
 }
